@@ -1,6 +1,6 @@
 import requests
 
-api_token = 'xoxb-1881597833890-1891659324519-qzkxn3s56aLFSN21pM33mr5d' # please enter your api_token
+api_token = 'xoxb-1881597833890-1891659324519-VsJrODVPAKKEg8zEjlh5fKhb' # please enter your api_token
 channel = 'stock-info-screening' # please enter your channel
 
 class SlackManager:
