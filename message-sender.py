@@ -24,6 +24,6 @@ class SlackManager:
 
 if __name__ =='__main__':
     file_name = 'high-dividend-stock-info.xlsx'
-    file_path = './data/' + file_name
+    file_path = './' + file_name
     slack = SlackManager()
     slack.upload_file(file_path,file_name)

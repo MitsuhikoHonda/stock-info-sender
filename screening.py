@@ -270,5 +270,5 @@ if __name__ == '__main__':
     output_data_frame = pd.DataFrame(data=output_list,columns=columns)
     sorted_output_data_frame = output_data_frame.sort_values('配当利回り(%)',ascending=False)
     localtime = strftime("%y%m%d_%H%M%S",time.localtime())
-    output_file_name = '../data/high-dividend-stock-info.xlsx'
+    output_file_name = './high-dividend-stock-info.xlsx'
     sorted_output_data_frame.to_excel(output_file_name,index=None,engine='openpyxl')
